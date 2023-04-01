@@ -1,0 +1,50 @@
+
+.icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    
+}
+.icons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 100%;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+.icons-container:hover{
+    background-color: blueviolet;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: white;
+    border: 3px solid rgb(231, 214, 214);
+    cursor: pointer;
+}
+/* <h1 className='head'><span className='dark'>My</span> Services</h1> */
+.about-img{
+    border-radius: 10px;
+    max-height: 520px;
+}
+.right-side{
+    background-image: url('../../img/haz2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    
+}
+.hello-png{
+    animation: animate 1s infinite ease alternate;
+}
+@keyframes animate {
+    to{
+        transform:rotate(20deg)
+    }
+    
+}

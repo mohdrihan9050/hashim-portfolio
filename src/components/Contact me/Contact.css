@@ -1,0 +1,25 @@
+.box-size{
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+.box-size:focus{
+    border-bottom: 2px solid #8a2be2;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+textarea{
+    outline: none;
+    width: 400px;
+    height: 160px !important;
+
+}
+textarea:focus{
+    border:2px solid #8a2be2 !important;
+    box-shadow: none !important;
+
+}
+.form-wrapper{
+    max-width: 500px;
+}

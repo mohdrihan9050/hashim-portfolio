@@ -1,0 +1,15 @@
+.dark{
+    color: black;
+}
+
+.service-wrapper{
+    text-align: center;
+    border-top: 5px solid blueviolet;
+    border-bottom: 5px solid blueviolet;
+    border-radius: 30px;
+    height: 400px;
+}
+.icon{
+    transform: scale(2);
+    color: blueviolet;
+}

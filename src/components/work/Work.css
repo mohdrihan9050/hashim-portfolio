@@ -1,0 +1,13 @@
+#work{
+    /* height: 100vh; */
+    background-color: blueviolet;
+    color: white;
+    /* transform: rotate(5deg); */
+}
+.work-card:hover{
+    transform: scale(1.1);
+}
+.work-card{
+    transition: all ease 1.5s ;
+    cursor: pointer;
+}

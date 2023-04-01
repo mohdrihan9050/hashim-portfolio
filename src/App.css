@@ -1,0 +1,27 @@
+*{margin:0;padding:0}
+:root{
+    --violet:blueviolet;
+    --gray:#696666
+}
+html,body{
+    font-family: 'Open Sans', sans-serif !important;
+	overflow-x: hidden;
+}
+.text-gray{
+    color: var(--gray);
+}
+.text-violet{
+    color:var(--violet);
+    font-weight: bold;
+}
+.btn{
+    background-color:var(--violet);
+    color: aliceblue;
+    box-shadow: none;
+}
+.btn:focus{
+    
+    box-shadow: none;
+}
+
+
